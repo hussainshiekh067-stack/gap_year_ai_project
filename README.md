@@ -15,7 +15,7 @@ It demonstrates a complete ML workflow: data preprocessing, model training, pred
 ---
 
 ## Motivation
-During my gap year, I wanted to explore practical applications of **Computer Science and AI** by building a small project relevant to my intended major. Dartmouth College was chosen for its academic rigor and holistic admissions approach.
+During my gap year, I wanted to delve deeply into the practical applications of **Computer Science and AI** by building a small project relevant to my intended major. Dartmouth College was chosen for its academic rigor and holistic admissions approach.
 
 This project shows my initiative, problem-solving skills, and ability to apply ML concepts in a **realistic but ethical simulation**.
 
@@ -91,7 +91,7 @@ This project is **not affiliated with Dartmouth College** and does not represent
 
 ## Contact
 **Hussain Arif**  
-hussainshiekh067@gmail.com/ GitHub profiles can be added here
+hussainshiekh067@gmail.com
 
  
 
