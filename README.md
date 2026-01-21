@@ -1,101 +1,98 @@
-# gap_year_ai_project
+# Dartmouth College Admission Chance Predictor (ML Project)
 
-📌 Project Overview
+## Author
+**Hussain Arif**  
+Aspiring Computer Science & AI Undergraduate  
+Gap Year Project
 
-This project is a university-specific machine learning model designed to estimate the probability of admission to Dartmouth College based on a student’s academic profile.
+---
 
-Unlike generic admission predictors, this model is tailored specifically for Dartmouth, reflecting its holistic admissions philosophy and competitive academic environment.
+## Project Overview
+This project is a **university-specific machine learning model** designed to estimate the **probability of admission to Dartmouth College** based on a student’s academic profile.
 
-The model outputs an admission probability between 0 and 100%.
+It demonstrates a complete ML workflow: data preprocessing, model training, prediction, and evaluation. The model predicts a probabilistic score (0–100%) reflecting Dartmouth admissions criteria in a **simulated, educational context**.
 
-🎯 Why Dartmouth-Specific?
+---
 
-Most admission prediction models are overly generic and unrealistic.
+## Motivation
+During my gap year, I wanted to explore practical applications of **Computer Science and AI** by building a small project relevant to my intended major. Dartmouth College was chosen for its academic rigor and holistic admissions approach.
 
-This project takes a focused approach:
+This project shows my initiative, problem-solving skills, and ability to apply ML concepts in a **realistic but ethical simulation**.
 
-One university
+---
 
-One admissions context
+## Features Used
+| Feature  | Description                                      |
+| -------- | ------------------------------------------------ |
+| SAT      | Standardized test score (scaled)               |
+| GPA      | High school GPA (4.0 scale)                     |
+| Research | Research experience (1 = Yes, 0 = No)          |
 
-Clear assumptions
+These features reflect **core academic competencies** relevant to Dartmouth admissions.
 
-Transparent limitations
+---
 
-This demonstrates critical thinking, model design decisions, and ethical ML usage — not just coding.
+## Machine Learning Workflow
+1. **Dataset creation** (synthetic/manually curated)  
+2. Feature-target separation  
+3. Train-test split  
+4. Linear Regression model training  
+5. Model evaluation (R² score)  
+6. Prediction for a custom student profile  
 
-🧠 Features Used
+The notebooks demonstrate a **full ML pipeline from start to finish**.
 
-The model uses the following inputs:
+---
 
-Feature	Description
-SAT	SAT score (scaled to realistic Dartmouth ranges)
-GPA	High school GPA (on 4.0 scale)
-Research	Research experience (1 = Yes, 0 = No)
+## Model Output Example
+Example prediction for my academic profile: Predicted Chance of Admit: 84.9%
 
-These features were chosen to reflect academic rigor and intellectual engagement, which are central to Dartmouth’s admissions process.
 
-🛠️ Machine Learning Workflow
+⚠️ This is a probabilistic estimate for educational purposes only and not an official admissions decision.
 
-Manual dataset creation (for demonstration & academic use)
+---
 
-Feature/target separation
+## Limitations
+- The dataset is small and manually created  
+- Model simulates Dartmouth admissions, does not use real confidential data  
+- Predictions are illustrative, not guaranteed
 
-Train–test split
+---
 
-Linear Regression model training
+## Future Work
+- Expand dataset with anonymized, historical trends  
+- Use advanced ML models (Random Forest, XGBoost)  
+- Add user interface for interactive predictions  
+- Extend to other universities with customized models
 
-Model evaluation using R² score
+---
 
-Custom profile prediction
+## Tools & Technologies
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Jupyter Notebook / Google Colab
 
-The project demonstrates a complete ML pipeline from data preparation to inference.
+---
 
-📈 Model Output Example
+## Usage & Applications
+- Gap-year portfolio showcase  
+- GitHub project for CS/AI demonstration  
+- Supplement to university applications  
+- Demonstrates practical ML skills and ethical project design
 
-Example prediction:
+---
 
-Predicted Chance of Admit: 84.9%
+## Disclaimer
+This project is **not affiliated with Dartmouth College** and does not represent official admissions criteria. It is strictly an **educational and demonstrative project**.
 
-⚠️ This value represents a probabilistic estimate, not a guarantee.
+---
 
-⚠️ Disclaimer (Important)
+## Contact
+**Hussain Arif**  
+hussainshiekh067@gmail.com/ GitHub profiles can be added here
 
-This project:
+ 
 
-❌ Does NOT use official Dartmouth admissions data
 
-❌ Is NOT affiliated with Dartmouth College
-
-❌ Does NOT guarantee admission outcomes
-
-It is strictly an educational machine learning project created to demonstrate applied ML concepts.
-
-🚀 Applications
-
-This project can be used for:
-
-Gap-year portfolio
-
-GitHub ML showcase
-
-University application supplements
-
-Demonstrating practical ML understanding
-
-🔍 Future Improvements
-
-Larger, real-world datasets (simulated or anonymized)
-
-Non-linear models (Random Forest, XGBoost)
-
-Separate models for test-optional applicants
-
-UI/Web interface for public interaction
-
-👤 Author
-
-Hussain Arif
-Aspiring Computer Science & AI student
-
-⭐ If you find this project insightful, feel free to star the repository.
